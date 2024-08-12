@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+}
+
+/* for desktop */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 66.66%;
+}
+
+.col-8 {
+    width: 75%;
+}
+
+.col-9 {
+    width: 83.33%;
+}
+
+.col-10 {
+    width: 91.66%;
+}
+
+.col-11 {
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+/* navber desgin starts from here */
+.nav-img {
+    width: 130px;
+    height: 130px;
+}
+
+
+
+
+.navbar {
+    background-color: #40868b;
+    padding: 1% 7%;
+    text-align: center;
+    margin: 0px;
+}
+
+.nav-heading h1 {
+    color: white;
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.nav_menu {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-left: 0px;
+   
+
+}
+
+.nav_menu a {
+    background-color: transparent;
+    border-radius: 12px;
+    margin: 7px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+.nav_menu a:hover {
+    background-color:rgb(141, 138, 138);
+}
+
+
+.navbar::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+/* navbar end here */
+
+.wellcome{
+   text-align: center;
+    padding: 0;
+    margin:0;
+    font-size: 1.5rem;
+}
+.wellcome p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+
+.card_row1c1{
+    background-color: aqua;
+}
+.hotelimg{
+    width: 50px;
+    height: 150px;
+}
+
+
+/* CARRD */
+.card{
+    padding: 1% 0%;
+    margin: 10px;
+}
+.card .card_row1c1{
+margin: 7px;
+ background-color: #a39e9e;   
+ border-radius: 5px;
+ padding: 10px;
+ transition: 0.3s;
+}
+.card .card_row1c1:hover {
+    box-shadow: 0 5px 8px 8px black;
+}
+
+.card_row1c1 {
+    text-align: center;
+}
+.card_row1c1 .hotelimg .xxx{
+    padding: 5px;
+    height: 200px;
+    width: 300px;
+}
+
+.hoteltile{
+    margin-top: 60px;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+.card::after{
+    clear: both;
+    display: table;
+content: '';
+}
+
+
+
+/* footer start from here */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: .9rem;
+}
+.footer_menu a{
+display: block;
+margin: 10px 0;
+}
+.footer::after{
+    display: table;
+    content: '';
+    clear: both;
+
+}

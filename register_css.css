@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #e8f0fe;
+}
+.Register_now{
+margin-top: 500px;
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+
+}
+.Register_now h2 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.Register_now p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+.Register_now input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 50%;
+    border: 0;
+    border: 5px;
+    outline: none;
+}
+.Register_now button {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+.Register_now button:hover{
+    color: red;
+    
+}
+form .gender_details .gender_title{
+    font-size: 20px;
+    font-weight: 500;
+}
